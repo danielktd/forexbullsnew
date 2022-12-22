@@ -1,1 +1,1 @@
-# fxb
+FOREX BULLS UPDATED
