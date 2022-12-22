@@ -1,0 +1,133 @@
+.contact-h1{font-size:30px;}
+.link-color{color: green;}
+.feature-logos{height: 1000px;width: 100px;}
+.ntv{height: 300px;width: 150px;}
+.youtube-logo{height: 300px;
+width: 200px;}
+.ubc{height: 300px;width: 200px;}
+.youtube-channel{width: 50px}
+.logo-edit{height: 50px;width: 80px;}
+.img-edit{
+	 margin: 0 auto;
+    width: 100%;
+    padding: 100px 0px;
+}
+  .contact-img img {
+    width: 100%;
+  }
+  .header-text{
+  	font-size: 15px
+  }
+.case-study1 {
+  padding-top: 80px;
+  margin-bottom: 10px;
+  background:#0c151f;
+}
+
+.case-study1 .content h4 {
+  padding-bottom: 13px;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  color:white;
+  font-weight: bold;
+}
+
+.case-study1 .content p {
+  font-size: 14px;
+  color: white;
+}
+
+.case-study1 .content .btn {
+  margin-top: 30px;
+}
+.case-study-title{
+	font-size: 30px;
+	color: white
+}
+.case-study-white{
+color: white;
+}
+.button{
+text-align: center;
+
+}
+.read{
+	border-radius: 50px;
+	border-color: blue;
+	background: white;
+}
+.img-content{
+  padding-bottom: 0px;
+  padding-top: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+
+}
+#contenttext{
+text-align: center;
+display: block;
+justify-content: center;
+}
+.iframe-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+ 
+}
+.iframe{
+width: 500px;
+
+}
+.my_class_name {
+  padding: 6px;
+  border: 9px inset #8e44ad;
+}
+*
+{
+  margin: 0;
+  padding: 0;
+  font-family: "Fira Sans", sans-serif;
+}
+.img-responsive{
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  padding: 40px 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-gap: 20px;
+  align-items: stretch;
+}
+
+.grid > article {
+  border-style: inset;
+
+  box-shadow: 10px 10px 30px 0px #0c151f;
+}
+
+.grid > article img {
+  max-width: 100%;
+}
+
+.grid .text {
+  padding: 20px;
+}
