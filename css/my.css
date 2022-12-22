@@ -148,7 +148,7 @@ body {
 }
 
 .faq.active {
-    background-color: #fff;
+    background-color: #0c51f1;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 
     6px rgba(0, 0, 0, 0.1);
 }
