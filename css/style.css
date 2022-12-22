@@ -95,8 +95,8 @@ button:hover, button:focus {
 /* Themefisher Button effect */
 .btn-main {
   border-radius: 0;
-  background:#8e44ad;
-  border-color:#8e44ad;
+  background:#3498DB;
+  border-color:#3498DB;
   font-family: "Fira Sans", sans-serif;
   text-transform: uppercase;
   font-weight: 600;
@@ -106,7 +106,7 @@ button:hover, button:focus {
 }
 
 .btn-main:hover, .btn-main:focus {
-  color:#8e44ad;
+  color:#3498DB;
   border-color: transparent;
   background: black;
 }
@@ -267,7 +267,7 @@ button:hover, button:focus {
 }
 
 .slick-dots li.slick-active button {
-  background:#8e44ad;
+  background:#3498DB;
 }
 
 /* /slick dots */
@@ -1000,7 +1000,7 @@ div.loading {
  Pricing Style
 ***********************************************/
 .pricing-table {
-  background: #191919;
+  background: #0c151f;
   padding-bottom: 65px;
 }
 
@@ -1019,14 +1019,14 @@ div.loading {
 .pricing-title,
 .features-title,
 .price {
-  color: #afafaf;
+  color: white;
 }
 
 .pricing-title,
 .features-title,
 .price {
   text-transform: uppercase;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Fira Sans", sans-serif;
   letter-spacing: 2px;
 }
 
@@ -1057,6 +1057,7 @@ div.loading {
   font-size: 16px;
   padding: 20px 20px 20px 7px;
   display: inline-block;
+  font-family: "Open Sans", sans-serif;
 }
 
 .features-list li i {
@@ -1070,7 +1071,7 @@ div.loading {
 .th-btn-border {
   background: transparent;
   border-color: rgba(62, 62, 62, 0.5);
-  color: #afafaf;
+  color: white;
 }
 
 .th-btn-border:hover {
@@ -1101,7 +1102,7 @@ hr.hr-border {
 .table:hover .features-list i,
 .table:hover .th-btn-border,
 .table:hover .price {
-  color: grey;
+  color: #3498DB;
 }
 
 .table:hover .table-price {
@@ -1129,14 +1130,14 @@ hr.hr-border {
 }
 
 .border-effect:before {
-  border-bottom: 1px solid grey;
-  border-left: 1px solid grey;
+  border-bottom: 1px solid #3498DB;
+  border-left: 1px solid #3498DB;
   -webkit-transform-origin: 0 100%;
 }
 
 .border-effect:after {
-  border-top: 1px solid grey;
-  border-right: 1px solid grey;
+  border-top: 1px solid #3498DB;
+  border-right: 1px solid #3498DB;
   -webkit-transform-origin: 100% 0%;
 }
 
@@ -1259,7 +1260,7 @@ hr.hr-border {
   left: 0px;
   bottom: 0px;
   right: 0px;
-  background: #7350c3;
+  background: #3498DB;
   opacity: 0;
   transition: 0.5s;
 }
@@ -1269,7 +1270,7 @@ hr.hr-border {
 }
 
 .service-item:hover .services-icon {
-  background: #7350c3;
+  background: #3498DB;
   box-shadow: 0px 0px 0px 14px #191919;
 }
 
@@ -1381,7 +1382,7 @@ hr.hr-border {
 
 .owl-buttons div {
   display: inline-block;
-  border: 3px solid #8e44ad;
+  border: 3px solid #3498DB;
   border-radius: 2px;
   width: 122px;
   text-indent: -99999px;

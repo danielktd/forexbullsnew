@@ -90,7 +90,7 @@ width: 500px;
 }
 .my_class_name {
   padding: 6px;
-  border: 9px inset #8e44ad;
+  border: 9px inset #3498db;
 }
 *
 {
@@ -132,94 +132,171 @@ body {
   padding: 20px;
 }
 .faq-container{
-    max-width: 600px;
-    margin: 0 auto;
+  max-width: 600px;
+  margin: 0 auto;
 }
-
 .faq{
-    background-color: transparent;
-    border: 1px solid #9fa4a8;
-    border-radius: 10px;
-    margin: 20px 0;
-    padding: 30px;
-    position: relative;
-    overflow: hidden;
-    transition: 0.3s ease;
+  background-color: transparent;
+  border: 1px solid #3498db;
+  border-radius: 10px;
+  margin: 20px 0;
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s ease;
 }
 
 .faq.active {
-    background-color: #0c151f;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 
-    6px rgba(0, 0, 0, 0.1);
+  background-color: #0c151f;
+  box-shadow: 0 3px 6px rgba(20, 17, 17, 0.1), 0 3px 
+  6px rgba(0, 0, 0, 0.1);
 }
 
 .faq.active::before,
 .faq.active::after {
-    content: '\f075';
-    font-family: 'Font awesome 5 free';
-    color: #2ecc71;
-    font-size: 7rem;
-    position: absolute;
-    opacity: 0.2;
-    top: 20px;
-    left: 20px;
-    z-index: 0;
+  content: '\f075';
+  font-family: 'Font awesome 5 free';
+  color: #2ecc71;
+  font-size: 7rem;
+  position: absolute;
+  opacity: 0.2;
+  top: 20px;
+  left: 20px;
+  z-index: 0;
 }
 
 .faq.active::before{
-    color: #3498db;
-    top: -10px;
-    left: -30px;
-    transform: rotateY(180deg);
+  color: #3498db;
+  top: -10px;
+  left: -30px;
+  transform: rotateY(180deg);
 }
 
 .faq-title{
-    margin: 0 35px 0 0;
+  margin: 0 35px 0 0;
 }
 
 .faq-text{
-    display: none;
-    margin: 30px 0 0;
+  display: none;
+  margin: 30px 0 0;
 }
 
 .faq.active .faq-text{
-    display: block;
+  display: block;
 }
 
 .faq-toggle{
-    background-color: transparent;
-    border-radius: 50%;
-    border: 0;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 16px;
-    padding: 0;
-    position: absolute;
-    top: 30px;
-    right: 30px;
-    width: 30px;
-    height: 30px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  padding: 0;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  width: 30px;
+  height: 30px;
 }
 
 .faq-toggle:focus{
-    outline: none;
+  outline: none;
 }
 
 .faq-toggle .fa-times {
-    display: none;
+  display: none;
 }
 
 .faq.active .faq-toggle .fa-times {
-    display: block;
-    color: white;
+  display: block;
+  color: white;
 }
 
 .faq.active .faq-toggle .fa-chevron-down{
-    display: none;
+  display: none;
 }
 
 .faq.active .faq-toggle {
-    background-color: #9fa4a8;
+  background-color: #9fa4a8;
+}
+.testimonials
+{
+  padding: 40px 0;
+  background: #0c151f;
+  color:white;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.testimonial-inner
+{
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 20px;
+  font-family: "Poppins";
+}
+
+.border
+{
+  width: 160px;
+  height: 5px;
+  background: #6ab04c;
+  margin: 26px auto;
+}
+
+.row
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.col
+{
+  flex: 33.33%;
+  max-width: 33.33%;
+  box-sizing:  border-box;
+  padding: 15px;
+}
+
+.testimonial
+{
+background: transparent;
+  padding: 30px;
+}
+
+.testimonial img
+{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.name
+{
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+.stars
+{
+  color: #3498db;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 960px)
+{
+  .col
+  {
+    flex: 100%;
+    max-width: 80%;
+  }
 }
