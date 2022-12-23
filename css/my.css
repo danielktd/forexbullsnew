@@ -300,3 +300,11 @@ background: transparent;
     max-width: 80%;
   }
 }
+.content{
+  text-align: center;
+  box-shadow: 0 0 20px 0 black;
+  padding-bottom: 15px;
+  padding-top: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
