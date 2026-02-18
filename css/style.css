@@ -1,0 +1,26 @@
+@media screen and (max-width: 768px) {
+    .social-wrapper {
+        grid-template-columns: 1fr 1fr; /* Change to 2 columns on mobile */
+    }
+    
+    .social-link-outer:nth-child(3) {
+        grid-column: 1 / -1; /* Make it span full width */
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* Create 2 columns for WhatsApp and YouTube */
+        gap: var(--_perimeter---padding--padding-100);
+    }
+    
+    .social-link-outer:nth-child(3) .social-link-wrap {
+        padding-bottom: 0; /* Optional: adjust spacing */
+        border: none;
+    }
+}
+
+.state-card {
+    transition: background-image 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.state-card:hover {
+    background-image: linear-gradient(#000917, #000d20 12%, #02122a 23%, #011742 34%, #01247b 44%, #153896 55%, #3055ba 65%, #4468c9 76%, #5879d0 88%, #6c89d9 100%, #86a1ea 100%, #b4c6f7 100%, #e7eeff 100%, #fff);
+    color: white !important;
+}
